@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static './style.css' %}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <img src="{% static './mainlogo.png' %}" alt="">
+                <h1>DP</h1></li>
+            <li>
+                <img src="{% static './logo.png' %}" alt="">
+                &nbsp;&nbsp;
+                <a href="https://www.instagram.com/charles___7/">
+                    @charles___7
+                </a>
+        </li>
+        </ul>
+    </nav>
+    <div class="form_container">
+        {% block form_body %}
+        {% endblock %}
+    </div>
+</body>
+</html>
