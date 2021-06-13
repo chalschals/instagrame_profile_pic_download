@@ -15,9 +15,9 @@ instaloader==4.7.1
 pipenv==2020.11.15
 pycodestyle==2.7.0
 pyodbc==4.0.30
-pypiwin32==223
 pyttsx3==2.90
 pytz==2021.1
+pywin32
 requests==2.25.1
 six==1.15.0
 sqlparse==0.4.1
